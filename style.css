@@ -1,3 +1,32 @@
+*{
+    border: 1px solid red;
+}
+
+body{
+    background-image:url("img/cork.png");
+}
+
+header{
+    height: 150px;
+    padding: 40px;
+    margin-bottom: 40px;
+    background-image: url("img/wall.png");
+}
+
 h1{
     font-family: "Sometype Mono", monospace;
+    font-weight: 900;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+
+.col{
+    margin-bottom: 20px;
+}
+
+.card-text{
+    font-family: "Edu TAS Beginner";
 }
