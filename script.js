@@ -23,7 +23,9 @@ axios.get(endpoint)
 // creo messaggio di errore
     .catch(error =>{
         console.error(error);
-        dashBoard.innerHTML=(`<h2 class="text-center">ERRORE</h2>`);
+        dashBoard.innerHTML=(`<div class="alert alert-danger text-center" role="alert">
+  ERRORE!!!
+</div>`);
     })
 //funzione per creare eleemtni HTML
 function createHTML(element){
@@ -32,9 +34,9 @@ function createHTML(element){
 
     return `<div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card">                        
-                    <img class="translate-middle start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
+                    <img class="translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
                     <img src="${url}" class="p-3" alt="${title}">
-                    <div class="card-body">
+                    <div class="card-body pt-0 pb-4">
                     <p class="card-text">${date}</p>
                     </div>
                 </div>
