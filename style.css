@@ -13,10 +13,12 @@ header{
 
 .date{
     font-family: "Sometype Mono", monospace;
+    font-weight: bolder;
 }
 
 .title{
     font-family: "Edu TAS Beginner", sans-serif;
-    font-size: xx-large;
+    font-size:x-large;
     font-weight: bolder;
+    text-transform: uppercase;
 }

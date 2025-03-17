@@ -37,7 +37,7 @@ function createHTML(element){
                     <img class="translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
                     <img src="${url}" class="p-3" alt="${title}">
                     <div class="card-body pt-0 pb-4">
-                    <p class="card-text date">${date}</p>
+                    <p class="card-text date my-0">${date}</p>
                     <p class="card-text title">${title}</p>
                     </div>
                 </div>
