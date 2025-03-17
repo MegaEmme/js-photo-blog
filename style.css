@@ -4,13 +4,19 @@ body{
 
 header{
     background-image: url("img/wall.png");
-    font-family:"Edu TAS Beginner", sans-serif;
+    font-family:"Edu TAS Beginner";
 }
 
 .container{
     max-width: 1200px;
 }
 
-.card-text{
-    font-family: "Edu TAS Beginner";
+.date{
+    font-family: "Sometype Mono", monospace;
+}
+
+.title{
+    font-family: "Edu TAS Beginner", sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
 }
