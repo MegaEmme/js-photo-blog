@@ -59,7 +59,7 @@ function createHTML(element){
     
     const newElement = `<div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card">                        
-                    <img class="translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
+                    <img class="pin translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
                     <img src="${url}" class="zoom p-3" alt="${title}">
                     <div class="card-body pt-0 pb-4">
                     <p class="card-text date my-0">${date}</p>
