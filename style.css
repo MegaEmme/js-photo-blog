@@ -13,10 +13,10 @@ body{
 }
 
 .overlay-element{
-    width: 50%;
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 25%;
+    width: 50%;
     z-index: 2;
 }
 
@@ -25,14 +25,9 @@ button{
     align-self: center;
 }
 
-
 header{
     background-image: url("img/wall.png");
     font-family:"Edu TAS Beginner";
-}
-
-.container{
-    max-width: 1200px;
 }
 
 .card:hover{
