@@ -1,7 +1,6 @@
 body{
     cursor: pointer;
     background-image:url("img/cork.png");
-    overflow: hidden;
 }
 
 #overlay{

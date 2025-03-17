@@ -14,9 +14,13 @@ console.log(buttonElement);
 const imageElement = document.getElementById('image');
 console.log(imageElement);
 
+const bodyElement=document.querySelector('body');
+console.log(bodyElement);
+
 buttonElement.addEventListener('click', function(){
     overlayElement.classList.add("d-none");
- });
+    bodyElement.classList.remove("overflow-hidden");
+});
 // chiamo l'API con axios
 axios.get(endpoint)
 // creo una card che attinge da API
@@ -41,6 +45,7 @@ axios.get(endpoint)
                 console.log(image);
                 imageElement.src=image.src;
                 overlayElement.classList.replace("d-none","d-block");
+                bodyElement.classList.add("overflow-hidden");
             })
         })
 
