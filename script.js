@@ -31,8 +31,8 @@ axios.get(endpoint)
 function createHTML(element){
 
     const{title, date, url} = element;
-
-    return `<div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
+    
+    const newElement = `<div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="card">                        
                     <img class="translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
                     <img src="${url}" class="p-3" alt="${title}">
@@ -41,5 +41,7 @@ function createHTML(element){
                     </div>
                 </div>
             </div>`
+            
+    return newElement;
 };
 
