@@ -16,7 +16,7 @@ console.log(imageElement);
 
 const bodyElement=document.querySelector('body');
 console.log(bodyElement);
-
+// aggiungo evento al click sul bottone
 buttonElement.addEventListener('click', function(){
     overlayElement.classList.add("d-none");
     bodyElement.classList.remove("overflow-hidden");
@@ -63,15 +63,15 @@ function createHTML(element){
     const{title, date, url} = element;
     
     const newElement = `<div class="col col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="card">                        
-                    <img class="pin translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
-                    <img src="${url}" class="zoom p-3" alt="${title}">
-                    <div class="card-body pt-0 pb-4">
-                    <p class="card-text date my-0">${date}</p>
-                    <p class="card-text title">${title}</p>
-                    </div>
-                </div>
-            </div>`
+                            <div class="card">                        
+                                <img class="pin translate-middle m-1 start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
+                                <img src="${url}" class="zoom p-3" alt="${title}">
+                                <div class="card-body pt-0 pb-4">
+                                <p class="card-text date my-0">${date}</p>
+                                <p class="card-text title">${title}</p>
+                                </div>
+                            </div>
+                        </div>`
 
     return newElement;
 };
